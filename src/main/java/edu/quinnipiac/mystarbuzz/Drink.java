@@ -11,7 +11,6 @@ public class Drink {
             new Drink("Filter", "Highest quality beans roasted and brewed fresh", R.drawable.filter)
     };
 
-    // Each Drink has a name, description, and an image resource
     private Drink(String name, String description, int imageResourceId) {
         this.name = name;
         this.description = description;
